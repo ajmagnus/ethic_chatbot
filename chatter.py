@@ -1,9 +1,9 @@
-import chatterbot
+from chatterbot import ChatBot
 def main():
 	print("Python main func");
 	from chatterbot import ChatBot
 	chatbot = ChatBot("Trump");
-	reponse = chatbot.get_response("Good morn");
+	response = chatbot.get_response("Good morn");
 	print(response);
 
 
