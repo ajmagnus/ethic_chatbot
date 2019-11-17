@@ -13,17 +13,10 @@ def main():
 			#]
 	)
 		
-	#train the chatbot
 	trainer = ChatterBotCorpusTrainer(chatbot)
-	#trainer.train(
-	#	"convo.yml"
-	#)
-
 	trainer.train(
 	    "chatterbot.corpus.trump"
 	)
-
-		
 
 	chatbot.read_only=True
 	
